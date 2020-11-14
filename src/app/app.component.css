@@ -1,5 +1,7 @@
 .sidenav {
     background-image: url('https://i.ibb.co/0CTXqmT/sideNav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .setting {
@@ -45,7 +47,7 @@
 }
 
 .right-color {
-    background-color: #f1f1f1;
+    background-color: #EEF2E6;
     padding: 2%;
 }
 

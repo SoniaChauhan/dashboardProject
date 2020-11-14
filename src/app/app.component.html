@@ -1,130 +1,132 @@
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-2 sidenav">
-            <mat-list-item role="listitem" class="wht">
-                <img width="40" alt="Angular Logo" src="https://i.ibb.co/HtR8WMB/angular-Icon.png" /> Creative Tim
-            </mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list-item role="listitem" class="wht">
-                <img [src]="_emp.proImage" style="width: 38%; border-radius: 50%;"> &nbsp; Tania Andrew</mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list role="list">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 sidenav">
                 <mat-list-item role="listitem" class="wht">
-                    <button mat-raised-button>
+                    <img width="40" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+                    /> Creative Tim
+                </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item role="listitem" class="wht">
+                    <img [src]="_emp.proImage" style="width: 38%; border-radius: 50%;"> &nbsp; Tania Andrew</mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list role="list">
+                    <mat-list-item role="listitem" class="wht">
+                        <button mat-raised-button>
                       <button mat-icon-button class="example-icon favorite-icon" style="width: 100%;"
                        aria-label="Example icon-button with heart icon">
                       <mat-icon>view_module</mat-icon> Dashboard
                       </button>
-                    </button>
-                </mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>folder</mat-icon> &nbsp; Component</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>assessment</mat-icon> &nbsp; Forms</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon> table_chart</mat-icon> &nbsp; Table 3</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon> location_on</mat-icon> &nbsp; Maps</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>widgets</mat-icon> &nbsp; Widgets</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>domain</mat-icon> &nbsp; Charts</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>calendar_today</mat-icon> &nbsp; Calender</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>assignment</mat-icon> &nbsp; Pages</mat-list-item>
-                <mat-list-item role="listitem" class="wht">
-                    <mat-icon>school</mat-icon> &nbsp; Documentation </mat-list-item>
-            </mat-list>
-        </div>
-        <!-- end side nav -->
-        <div class="col-sm-10 right-color">
-            <mat-toolbar>
-                <button mat-mini-fab aria-label="Example icon button with a plus one icon">
+                        </button>
+                    </mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>folder</mat-icon> &nbsp; Component</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>assessment</mat-icon> &nbsp; Forms</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon> table_chart</mat-icon> &nbsp; Table 3</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon> location_on</mat-icon> &nbsp; Maps</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>widgets</mat-icon> &nbsp; Widgets</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>domain</mat-icon> &nbsp; Charts</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>calendar_today</mat-icon> &nbsp; Calender</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>assignment</mat-icon> &nbsp; Pages</mat-list-item>
+                    <mat-list-item role="listitem" class="wht">
+                        <mat-icon>school</mat-icon> &nbsp; Documentation </mat-list-item>
+                </mat-list>
+            </div>
+            <!-- end side nav -->
+            <div class="col-sm-10 right-color">
+                <mat-toolbar>
+                    <button mat-mini-fab aria-label="Example icon button with a plus one icon">
                 <mat-icon>more_vert</mat-icon>
                 </button> &nbsp;
-                <span>Dashboard</span>
+                    <span>Dashboard</span>
 
-                <span class="example-spacer"></span>
-                <input type="text" placeholder="Search.." style="border: none;font-size: .7em;">
-                <button mat-mini-fab aria-label="Example icon button with a plus one icon">
+                    <span class="example-spacer"></span>
+                    <input type="text" placeholder="Search.." style="border: none;font-size: .7em;">
+                    <button mat-mini-fab aria-label="Example icon button with a plus one icon">
                   <mat-icon>search</mat-icon>
                 </button>
-                <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
                   <mat-icon>view_module</mat-icon>
                 </button>
-                <button mat-icon-button class="example-icon favorite-icon" mat-raised-button matBadge="1" aria-label="Example icon-button with heart icon">
+                    <button mat-icon-button class="example-icon favorite-icon" mat-raised-button matBadge="1" aria-label="Example icon-button with heart icon">
                 <mat-icon>notifications</mat-icon>
                 </button>
-                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
                 <mat-icon>person</mat-icon>
                </button>
-            </mat-toolbar>
-            <div class="col-sm-10 right-color">
-                <ng-container *ngIf="_emp.isNewDetails">
-                    <app-first-component></app-first-component>
-                </ng-container>
+                </mat-toolbar>
+                <div class="col-sm-10 right-color">
+                    <ng-container *ngIf="_emp.isNewDetails">
+                        <app-first-component></app-first-component>
+                    </ng-container>
+                </div>
+                <div *ngIf="_emp.firstStep">
+                    <mat-card>
+                        <div class="rating">
+                            <span><mat-icon>language</mat-icon></span>
+                        </div>
+                        <div class="setting">
+                            <span><mat-icon>settings</mat-icon></span>
+                        </div>
+                        <h4 style="margin-left: 6%;"><small>Global sales by top location</small></h4>
+                        <div style="display: inline-block; width: 51%;">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>S. No.</th>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of arr; let  i= index">
+                                        <td>{{i+ 1}}</td>
+                                        <td> <a [routerLink]="['/first-component']" (click)="showDetails(item.id)">{{item.first_name}}</a></td>
+                                        <td>{{item.last_name}}</td>
+                                        <td>{{item.email}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="display: inline-block;position: absolute;text-align: center;width: 50%;">
+                            <img [src]="_emp.myImage" style="width: 91%">
+                        </div>
+                    </mat-card>
+                    <!-- table section end -->
+
+                    <!-- chart section start -->
+                    <mat-grid-list cols="3" style="margin-top: 6%;" rowHeight="280px" [gutterSize]="'20px'">
+                        <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" style="border-radius: 2%;" [style.background]="tile.color">
+                            <mat-card class="square_board" style="background: #cfe4eb;">
+                                <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType"></canvas>
+                            </mat-card>
+                            <mat-grid-tile-footer>
+                                <mat-list role="list">
+                                    <mat-list-item role="listitem" style="height: 25px;">
+                                        Daily Sales
+                                    </mat-list-item>
+                                    <mat-list-item role="listitem" style="height: 25px;">
+                                        <mat-icon style="color: green;">arrow_upward</mat-icon> <span style="color: green;"> 55%</span> &nbsp; Increase in today sales</mat-list-item>
+                                    <mat-divider></mat-divider>
+                                    <mat-list-item role="listitem" style="height: 25px;">
+                                        <mat-icon>query_builder</mat-icon><span> updated 4min ago</span></mat-list-item>
+                                </mat-list>
+
+                            </mat-grid-tile-footer>
+                        </mat-grid-tile>
+
+                    </mat-grid-list>
+                    <!-- chart section end -->
+                </div>
+                <!-- right content end  -->
             </div>
-            <div *ngIf="_emp.firstStep">
-                <mat-card>
-                    <div class="rating">
-                        <span><mat-icon>language</mat-icon></span>
-                    </div>
-                    <div class="setting">
-                        <span><mat-icon>settings</mat-icon></span>
-                    </div>
-                    <h4 style="margin-left: 6%;"><small>Global sales by top location</small></h4>
-                    <div style="display: inline-block; width: 51%;">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>S. No.</th>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                    <th>Email</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr *ngFor="let item of arr; let  i= index">
-                                    <td>{{i+ 1}}</td>
-                                    <td> <a [routerLink]="['/first-component']" (click)="showDetails(item.id)">{{item.first_name}}</a></td>
-                                    <td>{{item.last_name}}</td>
-                                    <td>{{item.email}}</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div style="display: inline-block;position: absolute;text-align: center;width: 50%;">
-                        <img [src]="_emp.myImage" style="width: 91%">
-                    </div>
-                </mat-card>
-                <!-- table section end -->
-
-                <!-- chart section start -->
-                <mat-grid-list cols="3" style="margin-top: 6%;" rowHeight="280px" [gutterSize]="'20px'">
-                    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" style="border-radius: 2%;" [style.background]="tile.color">
-                        <mat-card class="square_board" style="background: #cfe4eb;">
-                            <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType"></canvas>
-                        </mat-card>
-                        <mat-grid-tile-footer>
-                            <mat-list role="list">
-                                <mat-list-item role="listitem" style="height: 25px;">
-                                    Daily Sales
-                                </mat-list-item>
-                                <mat-list-item role="listitem" style="height: 25px;">
-                                    <mat-icon style="color: green;">arrow_upward</mat-icon> <span style="color: green;"> 55%</span> &nbsp; Increase in today sales</mat-list-item>
-                                <mat-divider></mat-divider>
-                                <mat-list-item role="listitem" style="height: 25px;">
-                                    <mat-icon>query_builder</mat-icon><span> updated 4min ago</span></mat-list-item>
-                            </mat-list>
-
-                        </mat-grid-tile-footer>
-                    </mat-grid-tile>
-
-                </mat-grid-list>
-                <!-- chart section end -->
-            </div>
-            <!-- right content end  -->
         </div>
     </div>
-</div>

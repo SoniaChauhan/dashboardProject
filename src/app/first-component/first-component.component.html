@@ -1,0 +1,51 @@
+<div class="container-fluid">
+    <div class="container">
+        <mat-card>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngIf="_emp.userId==1">
+                        <tr *ngFor="let key of Object.keys(_emp.firstId)">
+                            <td *ngIf="_emp.firstId[key] == _emp.firstId['first_name']">{{_emp.firstId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf="_emp.userId==2">
+                        <tr *ngFor="let key of Object.keys(_emp.secondId)">
+                            <td *ngIf="_emp.secondId[key] == _emp.secondId['first_name']">{{_emp.secondId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf="_emp.userId==3">
+                        <tr *ngFor="let key of Object.keys(_emp.thirdId)">
+                            <td *ngIf="_emp.thirdId[key] == _emp.thirdId['first_name']">{{_emp.thirdId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf="_emp.userId==4">
+                        <tr *ngFor="let key of Object.keys(_emp.fourthId)">
+                            <td *ngIf="_emp.fourthId[key] == _emp.fourthId['first_name']">{{_emp.fourthId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf="_emp.userId==5">
+                        <tr *ngFor="let key of Object.keys(_emp.fifthId)">
+                            <td *ngIf="_emp.fifthId[key] == _emp.fifthId['first_name']">{{_emp.fifthId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf="_emp.userId==6">
+                        <tr *ngFor="let key of Object.keys(_emp.sixthId)">
+                            <td *ngIf="_emp.sixthId[key] == _emp.sixthId['first_name']">{{_emp.sixthId['first_name']}}</td>
+                        </tr>
+                    </ng-container>
+
+                </tbody>
+            </table>
+        </mat-card>
+
+        <div style="margin-top: 1%;">
+            <button class="btn btn-primary" (click)="goToFirstPage()">Back</button>
+        </div>
+
+    </div>
+</div>

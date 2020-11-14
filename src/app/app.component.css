@@ -1,0 +1,100 @@
+.sidenav {
+    background-image: url('../assets/images/sideNav.jpg');
+}
+
+.map-img {
+    background-image: url('../assets/images/map.png');
+    width: 100%;
+}
+
+.setting {
+    width: 78px;
+    height: 39px;
+    color: white;
+    background-color: #bcbfbb;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 5;
+    margin-top: -3%;
+    float: right;
+    margin-right: -3%;
+}
+
+.mat-fab.mat-accent,
+.mat-flat-button.mat-accent,
+.mat-mini-fab.mat-accent,
+.mat-raised-button.mat-accent {
+    background-color: #f1f1f1;
+}
+
+.mat-divider {
+    display: block;
+    margin: 9px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background: white;
+}
+
+.rating {
+    top: -4%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #26b10c;
+    text-align: center;
+    padding: 13px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 5;
+}
+
+.right-color {
+    background-color: #f1f1f1;
+    padding: 2%;
+}
+
+.wht {
+    color: #f1f1f1;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.square_board {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: -9%;
+}
+
+::ng-deep md-grid-tile.mat-grid-tile .mat-figure {
+    align-items: initial;
+}
+
+.mat-grid-tile {
+    overflow: visible;
+}
+
+.mat-grid-tile .mat-grid-tile-footer {
+    display: inline-block;
+    align-items: center;
+    height: 98px;
+    overflow: visible;
+    padding: 0 16px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: rgba(0, 0, 0, .87);
+}

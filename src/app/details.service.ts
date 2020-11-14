@@ -11,9 +11,9 @@ export class DetailsService {
   isNewDetails = false;
   firstStep = true;
 
-  myImage : string = "assets/images/map.png";
-  proImage : string = "assets/images/profile.jpg";
-  letterImage : string = "assets/images/angularIcon.png";
+  myImage : string = "https://i.ibb.co/26chhvk/map.jpg";
+  proImage : string = "https://i.ibb.co/kXpGFyf/profile.jpg";
+  letterImage : string = "https://i.ibb.co/HtR8WMB/angular-Icon.png";
 
   getSales() {
     return of({

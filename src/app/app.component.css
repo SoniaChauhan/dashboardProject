@@ -1,10 +1,5 @@
 .sidenav {
-    background-image: url('../assets/images/sideNav.jpg');
-}
-
-.map-img {
-    background-image: url('../assets/images/map.png');
-    width: 100%;
+    background-image: url('https://i.ibb.co/0CTXqmT/sideNav.jpg');
 }
 
 .setting {
